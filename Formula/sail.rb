@@ -1,17 +1,16 @@
 class Sail < Formula
-  desc "Fast and lightweight cross-platform image decoding and encoding library providing multi-leveled APIs from one-liners to complex use-cases with custom I/O sources."
+  desc "Fast and lightweight cross-platform image decoding and encoding library providing multi-leveled APIs"
   homepage "https://github.com/smoked-herring/sail"
-  #head "https://github.com/smoked-herring/sail.git"
   url "https://github.com/smoked-herring/sail/archive/v0.9.0-pre3.tar.gz"
   sha256 "f442978c37eeaea3b7b4f55408749aa0292702fb0319958b315f22d3b91d53d5"
   license "MIT"
-
-  option "with-sail-dev", "Enable development features like pedantic warnings and ASAN (if possible)"
 
   bottle do
     root_url "https://homebrew.bintray.com/bottles-sail"
     sha256 "578b09606820b027c358c528d7f0f0d0099fb4c1491f7e858bb5f687082b6fe4" => :catalina
   end
+
+  option "with-sail-dev", "Enable development features like pedantic warnings and ASAN (if possible)"
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
