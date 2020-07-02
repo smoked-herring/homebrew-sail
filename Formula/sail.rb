@@ -1,9 +1,9 @@
 class Sail < Formula
   desc "Fast and lightweight cross-platform image decoding and encoding library providing multi-leveled APIs from one-liners to complex use-cases with custom I/O sources."
   homepage "https://github.com/smoked-herring/sail"
-  head "https://github.com/smoked-herring/sail.git"
-  #url "https://github.com/smoked-herring/sail/archive/v0.9.0-pre2.tar.gz"
-  #sha256 "590b67207149cfc9069ce25ffd68d38a4a5af0dd273a80e8694bd17adf5b0936"
+  #head "https://github.com/smoked-herring/sail.git"
+  url "https://github.com/smoked-herring/sail/archive/v0.9.0-pre3.tar.gz"
+  sha256 "f442978c37eeaea3b7b4f55408749aa0292702fb0319958b315f22d3b91d53d5"
   license "MIT"
 
   option "with-sail-dev", "Enable development features like pedantic warnings and ASAN (if possible)"
