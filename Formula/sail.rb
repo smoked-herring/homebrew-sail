@@ -15,7 +15,7 @@ class Sail < Formula
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
 
-  depends_on "libjpeg-turbo"
+  depends_on "jpeg-turbo"
   depends_on "libpng"
 
   def install
