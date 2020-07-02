@@ -1,5 +1,5 @@
 class Sail < Formula
-  desc "Fast and lightweight cross-platform image decoding and encoding library providing multi-leveled APIs"
+  desc "Fast and lightweight cross-platform image decoding and encoding library"
   homepage "https://github.com/smoked-herring/sail"
   url "https://github.com/smoked-herring/sail/archive/v0.9.0-pre3.tar.gz"
   sha256 "f442978c37eeaea3b7b4f55408749aa0292702fb0319958b315f22d3b91d53d5"
