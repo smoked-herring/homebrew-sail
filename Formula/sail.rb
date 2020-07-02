@@ -8,6 +8,11 @@ class Sail < Formula
 
   option "with-sail-dev", "Enable development features like pedantic warnings and ASAN (if possible)"
 
+  bottle do
+    root_url "https://homebrew.bintray.com/bottles-sail"
+    sha256 "578b09606820b027c358c528d7f0f0d0099fb4c1491f7e858bb5f687082b6fe4" => :catalina
+  end
+
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
 
