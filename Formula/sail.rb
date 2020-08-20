@@ -18,6 +18,7 @@ class Sail < Formula
 
   depends_on "jpeg-turbo"
   depends_on "libpng"
+  depends_on "libtiff"
 
   def install
     mkdir "build" do
