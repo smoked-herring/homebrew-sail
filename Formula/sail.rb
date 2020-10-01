@@ -5,6 +5,12 @@ class Sail < Formula
   sha256 "f8738d436a6933879e8ec83c46795cbf587b4009a25f6049062ad62333d9589f"
   license "MIT"
 
+  bottle do
+    root_url "https://dl.bintray.com/smoked-herring/bottles-sail"
+    sha256 "f4ef2269e03ad3120e7f9b0dc449dfb30918b626d64e6c0656e8957ee20a0281" => :catalina
+    sha256 "1268ff9d9a6a2f1cac38ef1fe317115342c5d1809dc439d9b885eaf5569999f4" => :mojave
+  end
+
   option "with-sail-dev", "Enable development features like pedantic warnings and ASAN (if possible)"
 
   depends_on "cmake" => :build
