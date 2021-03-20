@@ -3,7 +3,7 @@ class Sail < Formula
   homepage "https://github.com/smoked-herring/sail"
   url "https://github.com/smoked-herring/sail/archive/v0.9.0-pre12.tar.gz"
   version "0.9.0-pre12"
-  sha256 "dfaa2dd67c024e5775a9ddcf61c4031f17b40f777836635fbab63d1ba4109ee8"
+  sha256 "053d57a3a83fb3599a6b962f3e878905914de276c8cff01b07c3d9d4865ef206"
   license "MIT"
 
   option "with-sail-dev", "Enable development features like pedantic warnings and ASAN (if possible)"
